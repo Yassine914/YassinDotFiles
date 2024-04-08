@@ -15,13 +15,15 @@ if test -f $wall.png; then
 	echo -e "color scheme: "
 	wal -i $wall/$wall.png -e -n
 	cat ~/.cache/wal/colors > $wall/$wall.scheme
-
+	cat ~/.cache/wal/colors.json > $wall/$wall.json
 
 elif test -f $wall.jpg; then
 	mv $wall.jpg $wall/$wall.jpg
 	echo -e "color scheme: "
 	wal -i $wall/$wall.jpg -e -n
 	cat ~/.cache/wal/colors > $wall/$wall.scheme
+	cat ~/.cache/wal/colors.json > $wall/$wall.json
+
 else
 	echo -e "no image exists with this name."
 	exit

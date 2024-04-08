@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/yassin914/dotfiles/wallpapers/car_1/car_1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010102",
+        "foreground": "#bfbfbf",
+        "cursor": "#bfbfbf"
+    },
+    "colors": {
+        "color0": "#010102",
+        "color1": "#555363",
+        "color2": "#A1645F",
+        "color3": "#686D91",
+        "color4": "#5E65CB",
+        "color5": "#9495A9",
+        "color6": "#A9ADD1",
+        "color7": "#bfbfbf",
+        "color8": "#404041",
+        "color9": "#555363",
+        "color10": "#A1645F",
+        "color11": "#686D91",
+        "color12": "#5E65CB",
+        "color13": "#9495A9",
+        "color14": "#A9ADD1",
+        "color15": "#bfbfbf"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/yassin914/dotfiles/wallpapers/skull_1/skull_1.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010002",
+        "foreground": "#bfbfbf",
+        "cursor": "#bfbfbf"
+    },
+    "colors": {
+        "color0": "#010002",
+        "color1": "#3F207C",
+        "color2": "#571A75",
+        "color3": "#70267B",
+        "color4": "#961E71",
+        "color5": "#180B83",
+        "color6": "#2F1683",
+        "color7": "#bfbfbf",
+        "color8": "#403f41",
+        "color9": "#3F207C",
+        "color10": "#571A75",
+        "color11": "#70267B",
+        "color12": "#961E71",
+        "color13": "#180B83",
+        "color14": "#2F1683",
+        "color15": "#bfbfbf"
+    }
+}

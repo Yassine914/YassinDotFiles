@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/yassin914/dotfiles/wallpapers/landscape_2/landscape_2.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040509",
+        "foreground": "#c0c0c1",
+        "cursor": "#c0c0c1"
+    },
+    "colors": {
+        "color0": "#040509",
+        "color1": "#596992",
+        "color2": "#2F5CD1",
+        "color3": "#3261DA",
+        "color4": "#76889D",
+        "color5": "#97A5B1",
+        "color6": "#B3C0C9",
+        "color7": "#c0c0c1",
+        "color8": "#424346",
+        "color9": "#596992",
+        "color10": "#2F5CD1",
+        "color11": "#3261DA",
+        "color12": "#76889D",
+        "color13": "#97A5B1",
+        "color14": "#B3C0C9",
+        "color15": "#c0c0c1"
+    }
+}

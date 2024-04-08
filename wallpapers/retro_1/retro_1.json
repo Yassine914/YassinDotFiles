@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/yassin914/dotfiles/wallpapers/retro_1/retro_1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040405",
+        "foreground": "#c0c0c0",
+        "cursor": "#c0c0c0"
+    },
+    "colors": {
+        "color0": "#040405",
+        "color1": "#EA6049",
+        "color2": "#E39C4E",
+        "color3": "#DCAF51",
+        "color4": "#F1B14B",
+        "color5": "#7C7E83",
+        "color6": "#DBBA8B",
+        "color7": "#c0c0c0",
+        "color8": "#424243",
+        "color9": "#EA6049",
+        "color10": "#E39C4E",
+        "color11": "#DCAF51",
+        "color12": "#F1B14B",
+        "color13": "#7C7E83",
+        "color14": "#DBBA8B",
+        "color15": "#c0c0c0"
+    }
+}
