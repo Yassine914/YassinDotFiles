@@ -32,6 +32,6 @@ fi
 echo -e "done."
 echo -e "new wallpaper: $wall"
 
-cp -r ~/Documents/wallpapers dotfiles/
+cp --update -r ~/Documents/wallpapers ~/dotfiles/
 
 exit

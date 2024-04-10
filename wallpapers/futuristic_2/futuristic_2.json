@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/yassin914/Documents/wallpapers/futuristic_2/futuristic_2.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040408",
+        "foreground": "#c0c0c1",
+        "cursor": "#c0c0c1"
+    },
+    "colors": {
+        "color0": "#040408",
+        "color1": "#53299D",
+        "color2": "#5C3DAE",
+        "color3": "#276890",
+        "color4": "#904CD0",
+        "color5": "#3C97B2",
+        "color6": "#C3C0ED",
+        "color7": "#c0c0c1",
+        "color8": "#424245",
+        "color9": "#53299D",
+        "color10": "#5C3DAE",
+        "color11": "#276890",
+        "color12": "#904CD0",
+        "color13": "#3C97B2",
+        "color14": "#C3C0ED",
+        "color15": "#c0c0c1"
+    }
+}
