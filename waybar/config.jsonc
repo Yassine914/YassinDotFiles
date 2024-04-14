@@ -94,23 +94,83 @@
 
 
 
-    	// Modules
+    	// Modules -> group/power
 
     	"custom/power": {
-	    "format": "",
+	    "format": "  ",
 	    "tooltip": false,
 	    "on-click": "shutdown now"
 	},
 	
 	"custom/lock": {
-            "format": "󰗼",
+            "format": "  ",
 	    "tooltip": false,
-	    "on-click": "alacritty"
+	    "on-click": "hyprlock"
 	},
 
 	"custom/reboot": {
-	    "format": "󰗼",
+	    "format": "  ",
 	    "tooltip": false,
-	    "on-click": "alacritty"
+	    "on-click": "reboot now"
+	},
+
+	// Modules -> group/hardware
+	"disk": {
+
+	},
+
+	"cpu": {
+
+	},
+
+	"memory": {
+
+	},
+
+
+	// Modules -> group/laptop
+	"battery": {
+	    "interval": 60,
+	    "states": {
+		"charging": 100,
+		"warning": 30,
+		"critical": 15
+	    },
+	    "format": "{icon} {capacity}%",
+	    "format-icons": ["", "", "", ""]
+	},
+
+	"bluetooth": {
+
+	},
+
+	"wifi": {
+
+	},
+
+
+	// Modules -> group/utils
+	/*"wireplumber": {
+
+	},*/
+
+	"backlight": {
+
+	},
+
+
+	// Modules -> center
+	"hyprland/workspaces": {
+
+	},
+
+
+	// Modules -> left
+	"clock": {
+
+	},
+
+	"hyprland/window": {
+
 	}
 }
