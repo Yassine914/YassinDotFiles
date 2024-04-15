@@ -1,6 +1,5 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, Rubik;
     font-size: 14px;
 }
 
@@ -26,7 +25,6 @@ window#waybar.solo {
 */
 
 window#waybar.termite {
-    background-color: #3F3F3F;
 }
 
 window#waybar.chromium {
@@ -87,9 +85,9 @@ button:hover {
 #memory,
 #disk,
 #temperature,
-#backlight,
+#backlight
+#light,
 #network,
-#pulseaudio,
 #wireplumber,
 #custom-media,
 #tray,
@@ -98,7 +96,6 @@ button:hover {
 #scratchpad,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
 }
 
 #window,
@@ -127,8 +124,36 @@ button:hover {
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: #000000;
+    background: transparent;
 }
+
+
+#custom-media.power{
+	background-color: #ffffff;
+}
+
+
+#custom-media{
+	background: rgba(0, 2, 4, 0.2);
+	border-radius: 4;
+}
+
+#wireplumber,
+#backlight,
+#back,
+#cpu,
+#memory,
+#disk{
+	background: rgba(0, 0, 0, 0.9);
+	border-radius: 2;
+	color: white;
+
+}
+
+#wireplumber{
+}
+
 
 @keyframes blink {
     to {
@@ -152,47 +177,27 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
 }
 
 #memory {
-    background-color: #9b59b6;
 }
 
 #disk {
-    background-color: #964B00;
 }
 
 #backlight {
-    background-color: #90b1b1;
 }
 
 #network {
-    background-color: #2980b9;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
-}
-
-#pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
-}
-
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
 }
 
 #wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
 }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
 }
 
 #custom-media {

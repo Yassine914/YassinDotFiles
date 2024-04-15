@@ -29,6 +29,7 @@
     "modules-right": [
 	"group/utils",
 	"group/laptop",
+	"battery",
 	"group/hardware",
 	"group/power"
     ],
@@ -38,16 +39,10 @@
     "group/hardware": {
 	"orientation": "inherit",
 
-	"drawer": {
-		"transition-duration": 500,
-        	"children-class": "not-power",
-        	"transition-left-to-right": false
-	},
-
 	"modules": [
-		"disk",
+		"memory",
 		"cpu",
-		"memory"
+		"disk"
 	]
     },
 
@@ -58,8 +53,7 @@
 
 	"modules": [
 		"network",
-		"bluetooth",
-		"battery"
+		"bluetooth"
 	]
     },
 
@@ -111,7 +105,7 @@
 	"custom/reboot": {
 	    "format": "  ",
 	    "tooltip": false,
-	    "on-click": "reboot now"
+	    "on-click": "shutdown -r now"
 	},
 
 	// Modules -> group/hardware
@@ -150,9 +144,9 @@
 
 
 	// Modules -> group/utils
-	/*"wireplumber": {
+	"wireplumber": {
 
-	},*/
+	},
 
 	"backlight": {
 
