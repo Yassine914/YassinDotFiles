@@ -10,7 +10,7 @@
 {
     "layer": "top",
     "height": 4,
-    "spacing": 30,
+    "spacing": 10,
     "margin-top": 0,
     "margin-bottom": 0,
 
@@ -40,8 +40,8 @@
 	"orientation": "inherit",
 
 	"modules": [
-		"memory",
 		"cpu",
+		"memory",
 		"disk"
 	]
     },
@@ -109,16 +109,18 @@
 	},
 
 	// Modules -> group/hardware
-	"disk": {
-
-	},
-
 	"cpu": {
-
+	    "format": "{icon} {usage}%",
+	    "format-icons": [""]
 	},
 
 	"memory": {
+	    "format": "|    {icon} {used}/{total}",
+	    "format-icons": [""]
+	},
 
+	"disk": {
+	    "format": "|     {used}"
 	},
 
 
@@ -165,6 +167,12 @@
 	},
 
 	"hyprland/window": {
-
+		"format": "{}",
+		"rewrite": {
+		    "(.*) - Mozilla Firefox": "> [$2] {initialTitle}",
+		    "(.*) - Alacritty": "> Terminal",
+		    "(.*) - Neovim": ">_ [$1]"
+		},
+		"seperate-outputs": true
 	}
 }
