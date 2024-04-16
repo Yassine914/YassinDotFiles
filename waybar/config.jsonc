@@ -137,21 +137,28 @@
 	},
 
 	"bluetooth": {
-
+	    "format": "{icon0} {status}",
+	    "format-off": "{icon1} disconnected",
+	    "format-disabled": "{icon2}",
+	    "format-icons": ["<U+F294>", "", ""]
 	},
 
 	"wifi": {
-
+	    "format-ethernet": "{icon0} {status}",
+	    "format-wifi": "{icon1} {ifname}",
+	    "format-disconnected": "{icon5}",
+	    "format-icons": ["", "", "", "", "", "", ""]
 	},
 
 
 	// Modules -> group/utils
 	"wireplumber": {
-
+	    //"format": "{icon0} {volume}%",
+	    "format-muted": "{icon1} {volume}%"
 	},
 
 	"backlight": {
-
+	    "format": "{icon0} {percent}"
 	},
 
 
