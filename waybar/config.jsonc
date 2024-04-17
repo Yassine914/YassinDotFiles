@@ -17,7 +17,8 @@
     // Modules Left
     "modules-left": [
 	"clock",
-	"hyprland/window"
+	"hyprland/window",
+	"mpd"
     ],
 
     // Modules Center
@@ -115,12 +116,12 @@
 	},
 
 	"memory": {
-	    "format": "|    {icon} {used}/{total}",
+	    "format": "|\t{icon} {used}/{total}",
 	    "format-icons": [""]
 	},
 
 	"disk": {
-	    "format": "|     {used}"
+	    "format": "|\t {used}"
 	},
 
 
@@ -144,8 +145,9 @@
 	},
 
 	"wifi": {
+	    "format": "{ifname}",
 	    "format-ethernet": "{icon0} {status}",
-	    "format-wifi": "{icon1} {ifname}",
+	    "format-wifi": "{icon1} {essid}",
 	    "format-disconnected": "{icon5}",
 	    "format-icons": ["", "", "", "", "", "", ""]
 	},
@@ -154,11 +156,22 @@
 	// Modules -> group/utils
 	"wireplumber": {
 	    //"format": "{icon0} {volume}%",
-	    "format-muted": "{icon1} {volume}%"
+	    "format-muted": "{icon1} {volume}%",
+	    "states": {
+		    "zero": 0,
+		    "low": 30,
+		    "medium": 60,
+		    "high": 85
+	    }
 	},
 
 	"backlight": {
-	    "format": "{icon0} {percent}"
+	    //"format": "{icon0} {percent}",
+	    "states": {
+		    "low": 30,
+		    "medium": 60,
+		    "high": 85
+	    }
 	},
 
 
@@ -170,7 +183,12 @@
 
 	// Modules -> left
 	"clock": {
-
+	    "format": "{:%H:%M}",
+	    "tooltip": true,
+	    "tooltip-fonrmat": ""
+	    //"calendar": {
+	    //    ""
+	    //}
 	},
 
 	"hyprland/window": {
@@ -180,6 +198,7 @@
 		    "(.*) - Alacritty": "> Terminal",
 		    "(.*) - Neovim": ">_ [$1]"
 		},
-		"seperate-outputs": true
+		"icon": true,
+		"icon-size": 20
 	}
 }
