@@ -92,19 +92,19 @@
     	// Modules -> group/power
 
     	"custom/power": {
-	    "format": "  ",
+	    "format": "    ",
 	    "tooltip": false,
 	    "on-click": "shutdown now"
 	},
 	
 	"custom/lock": {
-            "format": "  ",
+            "format": "    ",
 	    "tooltip": false,
 	    "on-click": "hyprlock"
 	},
 
 	"custom/reboot": {
-	    "format": "  ",
+	    "format": "    ",
 	    "tooltip": false,
 	    "on-click": "shutdown -r now"
 	},
