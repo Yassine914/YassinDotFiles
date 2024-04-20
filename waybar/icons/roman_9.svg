@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="roman_8.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g19"
+       transform="matrix(-1,0,0,1,136.43423,0)">
+      <path
+         d="M 11.823876,11.039115 42.206516,67.733332 9.4741464,124.42755 H 28.372216 l 22.93142,-39.718518 21.285,39.718518 h 18.89807 L 61.104586,67.733332 93.836436,11.039115 H 74.938366 L 52.006956,50.757622 30.721936,11.039115 Z"
+         style="stroke:#000000;stroke-width:5.04032;stroke-linecap:square;stroke-linejoin:round"
+         id="path6" />
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:4.73203;stroke-linecap:square;stroke-linejoin:round"
+         id="rect8"
+         width="18.89801"
+         height="113.38805"
+         x="106.09936"
+         y="11.03931"
+         ry="0"
+         rx="0" />
+    </g>
+  </g>
+</svg>

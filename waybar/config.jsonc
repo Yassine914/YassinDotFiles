@@ -32,6 +32,7 @@
 	"group/laptop",
 	"battery",
 	"group/hardware",
+	"tray",
 	"group/power"
     ],
 
@@ -110,12 +111,12 @@
 
 	// Modules -> group/hardware
 	"cpu": {
-	    "format": "{icon} {usage}%\t|",
+	    "format": "<span font='12'>{icon}</span> {usage}%\t|",
 	    "format-icons": [""]
 	},
 
 	"memory": {
-	    "format": "{icon} {used}/{total}",
+	    "format": "<span font='12'>{icon}</span> {used}/{total}",
 	    "format-icons": [""]
 	},
 
@@ -150,18 +151,13 @@
 
 	// Modules -> group/utils
 	"wireplumber": {
-	    "format": "{icon} {volume}%",
+	    "format": "<span font='12'>{icon}</span> {volume}%",
 	    "format-muted": "{icon0} {volume}%",
-	    "states": {
-		    "zero": 0,
-		    "medium": 60,
-		    "high": 85
-	    },
-	    "format-icons": ["", "", ""]
+	    "format-icons": ["", "", ""]
 	},
 
 	"backlight": {
-	    "format": "{icon} {percent}%",
+	    "format": "<span font='14'>{icon}</span> {percent}%",
 	    "states": {
 		    "low": 30,
 		    "medium": 60,
@@ -170,31 +166,39 @@
 	    "format-icons": ["", "", ""]
 	},
 
-
+	
 	// Modules -> center
 	"hyprland/workspaces": {
-
+	    "format": "{id} : {icon}",
+	    "format-icons": {
+		"1": "<U+0032>",
+		"2": "<U+0032>"
+	    }
 	},
-
 
 	// Modules -> left
 	"clock": {
-	    "format": "{:%H:%M}",
+	    "interval": 60,
 	    "tooltip": true,
-	    "tooltip-fonrmat": ""
-	    //"calendar": {
-	    //    ""
-	    //}
+	    "format": "{:%H:%M}",
+	    "tooltip-format": "{:%d/%m/%Y}"
 	},
 
 	"hyprland/window": {
 		"format": "{}",
+		"max-length": 50,
 		"rewrite": {
-		    "(.*) - Mozilla Firefox": "> [$2] {initialTitle}",
-		    "(.*) - Alacritty": "> Terminal",
-		    "(.*) - Neovim": ">_ [$1]"
+		    "^.* — Mozilla Firefox$": ">_firefox",
+		    "^[a-zA-Z0-9]*\\@[a-zA-Z0-9:~]*$": ">_terminal",
+		    "Alacritty": ">_nvim"
 		},
 		"icon": true,
 		"icon-size": 20
+	},
+
+	"tray": {
+	    "icon-size": 18,
+	    "spacing": 10,
+	    "show-passive-items": true
 	}
 }
