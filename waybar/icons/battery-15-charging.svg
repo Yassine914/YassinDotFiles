@@ -20,7 +20,7 @@
    style="opacity:1;fill:#63e6be;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
    vector-effect="non-scaling-stroke"
    transform="translate(-288,-256)"
-   d="m 464,160 c 8.8,0 16,7.2 16,16 v 160 c 0,8.8 -7.2,16 -16,16 H 80 c -8.8,0 -16,-7.2 -16,-16 V 176 c 0,-8.8 7.2,-16 16,-16 z M 80,96 C 35.8,96 0,131.8 0,176 v 160 c 0,44.2 35.8,80 80,80 h 384 c 44.2,0 80,-35.8 80,-80 v -16 c 17.7,0 32,-14.3 32,-32 v -64 c 0,-17.7 -14.3,-32 -32,-32 v -16 c 0,-44.2 -35.8,-80 -80,-80 z m 112,96 H 96 v 128 h 96 z"
+   d="m 464,160 c 8.8,0 16,7.2 16,16 v 160 c 0,8.8 -7.2,16 -16,16 H 80 c -8.8,0 -16,-7.2 -16,-16 V 176 c 0,-8.8 7.2,-16 16,-16 z M 80,96 C 35.8,96 0,131.8 0,176 v 160 c 0,44.2 35.8,80 80,80 h 384 c 44.2,0 80,-35.8 80,-80 v -16 c 17.7,0 32,-14.3 32,-32 v -64 c 0,-17.7 -14.3,-32 -32,-32 v -16 c 0,-44.2 -35.8,-80 -80,-80 z m 66.3813,96 H 96 v 128 h 50.3813 z"
    stroke-linecap="round"
    id="path1" />
 </g>

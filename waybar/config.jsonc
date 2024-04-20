@@ -42,8 +42,7 @@
 
 	"modules": [
 		"cpu",
-		"memory",
-		"disk"
+		"memory"
 	]
     },
 
@@ -111,20 +110,16 @@
 
 	// Modules -> group/hardware
 	"cpu": {
-	    "format": "{icon} {usage}%",
-	    "format-icons": [""]
+	    "format": "{icon} {usage}%\t|",
+	    "format-icons": [""]
 	},
 
 	"memory": {
-	    "format": "|\t{icon} {used}/{total}",
-	    "format-icons": [""]
+	    "format": "{icon} {used}/{total}",
+	    "format-icons": [""]
 	},
 
-	"disk": {
-	    "format": "|\t {used}"
-	},
-
-
+	
 	// Modules -> group/laptop
 	"battery": {
 	    "interval": 60,
@@ -148,30 +143,31 @@
 	    "format": "{ifname}",
 	    "format-ethernet": "{icon0} {status}",
 	    "format-wifi": "{icon1} {essid}",
-	    "format-disconnected": "{icon5}",
-	    "format-icons": ["", "", "", "", "", "", ""]
+	    "format-disconnected": "{icon6} off",
+	    "format-icons": ["", "", "", "", "", "", ""]
 	},
 
 
 	// Modules -> group/utils
 	"wireplumber": {
-	    //"format": "{icon0} {volume}%",
-	    "format-muted": "{icon1} {volume}%",
+	    "format": "{icon} {volume}%",
+	    "format-muted": "{icon0} {volume}%",
 	    "states": {
 		    "zero": 0,
-		    "low": 30,
 		    "medium": 60,
 		    "high": 85
-	    }
+	    },
+	    "format-icons": ["", "", ""]
 	},
 
 	"backlight": {
-	    //"format": "{icon0} {percent}",
+	    "format": "{icon} {percent}%",
 	    "states": {
 		    "low": 30,
 		    "medium": 60,
 		    "high": 85
-	    }
+	    },
+	    "format-icons": ["", "", ""]
 	},
 
 

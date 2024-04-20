@@ -6,8 +6,8 @@
    viewBox="0 0 1000 1000"
    xml:space="preserve"
    id="svg1"
-   sodipodi:docname="battery-full-charging.svg"
-   inkscape:export-filename="battery-full-charging.svg"
+   sodipodi:docname="battery-25-critical.svg"
+   inkscape:export-filename="battery-25-critical.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
@@ -24,29 +24,29 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="0.236"
-   inkscape:cx="500"
-   inkscape:cy="500"
+   inkscape:cx="377.11864"
+   inkscape:cy="728.81356"
    inkscape:window-width="777"
    inkscape:window-height="829"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg1" />
+   inkscape:current-layer="531661" />
 <desc
    id="desc1">Created with Fabric.js 3.5.0</desc>
 <defs
-   id="defs1">
-</defs>
+   id="defs1" />
 
 <g
-   transform="matrix(0 -1.5783 1.5783 0 500.0027 499.9951)"
-   id="700730">
+   transform="matrix(0,-1.5783,1.5783,0,500.0027,499.9951)"
+   id="531661">
 <path
-   style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(99,230,190); fill-rule: nonzero; opacity: 1;"
+   style="opacity:1;fill:#f66151;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
    vector-effect="non-scaling-stroke"
-   transform=" translate(-288, -256)"
-   d="M 464 160 c 8.8 0 16 7.2 16 16 V 336 c 0 8.8 -7.2 16 -16 16 H 80 c -8.8 0 -16 -7.2 -16 -16 V 176 c 0 -8.8 7.2 -16 16 -16 H 464 z M 80 96 C 35.8 96 0 131.8 0 176 V 336 c 0 44.2 35.8 80 80 80 H 464 c 44.2 0 80 -35.8 80 -80 V 320 c 17.7 0 32 -14.3 32 -32 V 224 c 0 -17.7 -14.3 -32 -32 -32 V 176 c 0 -44.2 -35.8 -80 -80 -80 H 80 z m 368 96 H 96 V 320 H 448 V 192 z"
+   transform="translate(-288,-256)"
+   d="m 464,160 c 8.8,0 16,7.2 16,16 v 160 c 0,8.8 -7.2,16 -16,16 H 80 c -8.8,0 -16,-7.2 -16,-16 V 176 c 0,-8.8 7.2,-16 16,-16 z M 80,96 C 35.8,96 0,131.8 0,176 v 160 c 0,44.2 35.8,80 80,80 h 384 c 44.2,0 80,-35.8 80,-80 v -16 c 17.7,0 32,-14.3 32,-32 v -64 c 0,-17.7 -14.3,-32 -32,-32 v -16 c 0,-44.2 -35.8,-80 -80,-80 z m 65.11411,96 H 96 v 128 h 49.11411 z"
    stroke-linecap="round"
-   id="path1" />
+   id="path1"
+   sodipodi:nodetypes="ssssssssssssssscsscsssccccc" />
 </g>
 </svg>
