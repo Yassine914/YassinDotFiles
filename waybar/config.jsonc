@@ -123,29 +123,28 @@
 	
 	// Modules -> group/laptop
 	"battery": {
-	    "interval": 60,
+	    "interval": 15,
+	    "format": "{icon} <span color='#ffffff'>{capacity}%</span>",
 	    "states": {
-		"charging": 100,
-		"warning": 30,
-		"critical": 15
+	    	"critical": 20,
+		"low": 35
 	    },
-	    "format": "{icon} {capacity}%",
-	    "format-icons": ["", "", "", ""]
+	    "format-icons": ["", "", "", "", ""]
 	},
 
 	"bluetooth": {
-	    "format": "{icon0} {status}",
-	    "format-off": "{icon1} disconnected",
-	    "format-disabled": "{icon2}",
-	    "format-icons": ["<U+F294>", "", ""]
+	    "format": "{icon}",
+	    "format-off": "",
+	    "format-disabled": "",
+	    "format-icons": ["", ""]
 	},
 
-	"wifi": {
+	"network": {
 	    "format": "{ifname}",
-	    "format-ethernet": "{icon0} {status}",
-	    "format-wifi": "{icon1} {essid}",
-	    "format-disconnected": "{icon6} off",
-	    "format-icons": ["", "", "", "", "", "", ""]
+	    "format-ethernet": " {status}",
+	    "format-wifi": "{icon}{essid}",
+	    "format-disconnected": " off",
+	    "format-icons": ["", "", "", ""]
 	},
 
 
@@ -157,7 +156,7 @@
 	},
 
 	"backlight": {
-	    "format": "<span font='14'>{icon}</span> {percent}%",
+	    "format": "<span font='12'>{icon}</span> {percent}%",
 	    "states": {
 		    "low": 30,
 		    "medium": 60,
