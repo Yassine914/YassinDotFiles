@@ -16,6 +16,7 @@
     font-size: 16px;
 }
 
+/* SECTION window */
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
@@ -36,60 +37,38 @@ window#waybar.chromium {
     border: none;
 }
 
-button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-}
-
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
-}
-
+/* SECTION modules->workspaces*/
 #workspaces{
-    font-family: 'BPlatinNumerals' /*!important*/;
+    background: transparent;
     font-size: 22;
-
+    margin-top: 3;
+    margin-bottom: 3;
+    padding-right: 3;
+    padding-left: 3;
 }
 
 #workspaces button {
-    padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
-    font-family: 'BPlatinNumerals' /*!important*/;
-    font-size: 22;
-
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-    font-family: 'BPlatinNumerals' /*!important*/;
-    font-size: 22;
+    background: #343a40;
+    box-shadow: none;
 }
-
-#workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
-    font-family: 'BPlatinNumerals' /*!important*/;
-    font-size: 22;
-}
-
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
-    font-family: 'BPlatinNumerals' /*!important*/;
-    font-size: 22;
+    background-color: #ffd43b;
+    color: black;
 }
 
 #workspaces button.active {
-
-    font-family: 'BPlatinNumerals' /*!important*/;
-    font-size: 22;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000000;
 }
 
-/*Baseline Styling*/
+
+/* SECTION Baseline Styling*/
 
 #clock,
 #battery,
@@ -115,10 +94,13 @@ button:hover {
     font-family: 'Rubik Semi Bold';
 }
 
-#window{
-    margin: 0 4px;
+#bluetooth{
+    padding: 0 0px;
 
-    font-family: 'Bplatinnumerals-B0EB';
+}
+
+
+#window{
 }
 
 .modules-right > widget:last-child > #custom-media.power{
@@ -126,12 +108,14 @@ button:hover {
 }
 
 #clock {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 4;
     color: black;
     font-size: 13px;
 }
 
+
+/* SECTION modules-> battery */
 #battery {
     color: #ffffff;
     background: transparent;
@@ -151,6 +135,8 @@ button:hover {
     color: #f66151;
 }
 
+
+
 #custom-media.power{
 	background-color: #ffffff;
 }
@@ -162,7 +148,6 @@ button:hover {
 
 #wireplumber,
 #backlight,
-
 #cpu,
 #memory,
 #disk{

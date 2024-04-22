@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   width="512"
+   height="512"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+  <path
+     d="M 50.734375,0 C 22.627342,0 0,22.627342 0,50.734375 V 461.26562 C 0,489.37266 22.627342,512 50.734375,512 H 461.26562 C 489.37266,512 512,489.37266 512,461.26562 V 50.734375 C 512,22.627342 489.37266,0 461.26562,0 Z M 91.632812,51.007812 H 420.36719 c 22.5068,0 40.625,18.118202 40.625,40.625 V 420.36719 c 0,22.5068 -18.1182,40.625 -40.625,40.625 H 91.632812 c -22.506798,0 -40.624999,-18.1182 -40.625,-40.625 V 91.632812 c 0,-22.506798 18.118202,-40.624999 40.625,-40.625 z"
+     style="stroke-width:58.658;stroke-linecap:square;stroke-linejoin:round"
+     id="path6" />
+  <path
+     d="m 130.70312,99.734375 c -17.15681,0 -30.968745,13.811935 -30.968745,30.968745 v 250.59375 c 0,17.15684 13.811935,30.96875 30.968745,30.96875 h 42.24024 c 17.15682,0 30.96875,-13.81191 30.96875,-30.96875 V 130.70312 c 0,-17.15681 -13.81193,-30.968745 -30.96875,-30.968745 z"
+     style="fill:#000000;fill-opacity:1;stroke-width:35.8055;stroke-linecap:square;stroke-linejoin:round"
+     id="path13" />
+</svg>
