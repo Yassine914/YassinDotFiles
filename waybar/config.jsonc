@@ -33,7 +33,7 @@
 	"battery",
 	"group/hardware",
 	"tray",
-	"group/power"
+	"custom/power"
     ],
 
 
@@ -94,7 +94,7 @@
     	"custom/power": {
 	    "format": "    ",
 	    "tooltip": false,
-	    "on-click": "shutdown now"
+	    "on-click": "wlogout"
 	},
 	
 	"custom/lock": {
@@ -136,21 +136,24 @@
 
 	"bluetooth": {
 	    "format": "{icon}",
-	    "format-off": "",
+	    "format-off": "",
 	    "format-disabled": "",
-	    "format-icons": ["", ""]
+	    "format-icons": ["", ""],
+	    "tooltip": true,
+	    "tooltip-format": "{status}",
 	},
 
 	"network": {
 	    "interval": 10,
 	    "format": "{ifname}",
 	    "format-ethernet": " {status}",
-	    "format-wifi": "{icon}",
-	    "format-disconnected": "",
+	    "format-wifi": "<span font='14'>{icon}</span>",
+	    "format-disconnected": "<span font='14'></span>",
 	    "format-icons": ["", "", ""],
 	    "tooltip": true,
 	    "format-tooltip-ethernet": "{ifname}",
-	    "tooltip-format-wifi": "{essid} ({signalStrength}%)"
+	    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+	    "tooltip-format-disconnected": "disconnected"
 	},
 
 
@@ -162,13 +165,14 @@
 	},
 
 	"backlight": {
-	    "format": "<span font='13.2'>{icon}</span> {percent}%",
+	    "format": "<span font='12'>{icon}</span> {percent}%",
 	    "states": {
 		    "low": 30,
 		    "medium": 60,
 		    "high": 85
 	    },
-	    "format-icons": ["", "", ""]
+	    "format-icons": ["", "", ""],
+	    "tooltip": false
 	},
 
 	
@@ -193,8 +197,8 @@
 	"clock": {
 	    "interval": 60,
 	    "tooltip": true,
-	    "format": "{:%H:%M}",
-	    "tooltip-format": "{:%d/%m/%Y}"
+	    "format": "{:%I:%M %p}",
+	    "tooltip-format": "{:%a %d/%m/%Y}"
 	},
 
 	"hyprland/window": {

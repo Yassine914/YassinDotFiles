@@ -67,7 +67,6 @@ window#waybar.chromium {
     color: #000000;
 }
 
-
 /* SECTION Baseline Styling*/
 
 #clock,
@@ -95,16 +94,12 @@ window#waybar.chromium {
 }
 
 #bluetooth{
-    padding: 0 0px;
-
+    margin-right: -9;
+    margin-left: -4;
 }
 
-
-#window{
-}
-
-.modules-right > widget:last-child > #custom-media.power{
-    margin-right: 8;
+#custom-power:hover {
+    color: #f66151;
 }
 
 #clock {
@@ -119,7 +114,7 @@ window#waybar.chromium {
 #battery {
     color: #ffffff;
     background: transparent;
-
+    margin-left: -6;
     font-family: 'Rubik Semi Bold';
 }
 
@@ -127,24 +122,14 @@ window#waybar.chromium {
     color: #63e6be;
 }
 
-#battery.low{
+#battery.low:not(.charging) {
     color: #ffd43b;
 }
 
-#battery.critical{
+#battery.critical:not(.charging){
     color: #f66151;
 }
 
-
-
-#custom-media.power{
-	background-color: #ffffff;
-}
-
-
-#custom-media{
-	background: rgba(0, 2, 4, 0.2);
-}
 
 #wireplumber,
 #backlight,
@@ -193,16 +178,7 @@ window#waybar.chromium {
 
 label:focus {
     background-color: #000000;
-}
-
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
+    color: red;
 }
 
 #keyboard-state {
