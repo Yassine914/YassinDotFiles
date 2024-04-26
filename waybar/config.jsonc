@@ -9,12 +9,11 @@
 
 {
     "layer": "top",
-    "height": 4,
-    "spacing": 10,
+    "height": 10,
+    "spacing": 8,
     "margin-top": 0,
-    "margin-bottom": 0,
 
-    // Modules Left
+    // Moules Left
     "modules-left": [
 	"clock",
 	"hyprland/window",
@@ -147,8 +146,8 @@
 	    "interval": 10,
 	    "format": "{ifname}",
 	    "format-ethernet": " {status}",
-	    "format-wifi": "<span font='14'>{icon}</span>",
-	    "format-disconnected": "<span font='14'></span>",
+	    "format-wifi": "<span font='12'>{icon}</span>",
+	    "format-disconnected": "<span font='12'></span>",
 	    "format-icons": ["", "", ""],
 	    "tooltip": true,
 	    "format-tooltip-ethernet": "{ifname}",
